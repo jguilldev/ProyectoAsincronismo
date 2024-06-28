@@ -1,0 +1,11 @@
+{
+  "name": "proyectoasincronismo",
+  "version": "1.0.0",
+  "description": "Proyecto sincronismo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Guillermo Vasquez jguilldev@gmail.com",
+  "license": "MIT"
+}
