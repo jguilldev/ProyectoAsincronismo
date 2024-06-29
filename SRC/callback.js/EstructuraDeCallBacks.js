@@ -1,3 +1,44 @@
+
+// Un callback es simplemente una función que se pasa como argumento a otra función y se invoca después 
+// de que alguna operación ha completado. Esta técnica permite ejecutar una función después de que una
+//  tarea asincrónica ha terminado, sin bloquear el flujo del programa.
+
+// partes 
+
+// Definición de la función que toma el callback como argumento.
+// Ejecución de una operación (síncrona o asíncrona).
+// Invocación del callback con los resultados de la operación.
+
+// Ejemplo Simple: Operación Síncrona
+
+// function greet(name, callback) {
+//     console.log('Hola ' + name);
+//     callback();
+// }
+
+// function afterGreeting() {
+//     console.log('Esto se ejecuta después de saludar.');
+// }
+
+// greet('Juan', afterGreeting);
+
+// Ejemplo Asíncrono: Operación con setTimeout
+
+// function fetchData(callback) {
+//     setTimeout(() => {
+//         console.log('Datos obtenidos');
+//         callback('Estos son los datos');
+//     }, 2000);
+// }
+
+// function processData(data) {
+//     console.log('Procesando:', data);
+// }
+
+// fetchData(processData);
+
+
+
 const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 const API = 'https://api.escuelajs.co/api/v1';
 
