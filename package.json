@@ -4,7 +4,9 @@
   "description": "Proyecto sincronismo",
   "main": "index.js",
   "scripts": {
-    "callback": "node /workspaces/ProyectoAsincronismo/SRC/callback.js/challenge.js"
+    "callback": "node /workspaces/ProyectoAsincronismo/SRC/callback.js/challenge.js",
+    "deploy": "gh-pages -d src assets"
+
   },
   "author": "Jose Guillermo Vasquez jguilldev@gmail.com",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "node-fetch": "^3.3.2",
     "xmlhttprequest": "^1.8.0"
   },
-  "type":"module"
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
