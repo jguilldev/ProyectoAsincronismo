@@ -6,7 +6,6 @@
   "scripts": {
     "callback": "node /workspaces/ProyectoAsincronismo/SRC/callback.js/challenge.js",
     "deploy": "gh-pages -d SRC"
-
   },
   "author": "Jose Guillermo Vasquez jguilldev@gmail.com",
   "license": "MIT",
